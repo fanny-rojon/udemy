@@ -2,6 +2,8 @@ body {
   margin: auto 0;
 }
 
+
+/*NAV*/
 .main-nav {
   padding: 0 10px;
   display: flex;
@@ -31,3 +33,17 @@ a {
     padding: 0;
   }
 }
+
+/*COVER*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  /*responsive*/
+  background-color: black;
+}
+
+
+
+
