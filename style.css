@@ -1,5 +1,6 @@
 body {
   margin: auto 0;
+  font-family: 'Comic Neue', cursive;
 }
 
 
@@ -9,7 +10,7 @@ body {
   display: flex;
   font-size: 16px;
   margin: 0;
-  background-color: grey;
+  background-color: #C19AB7;
 }
 
 li {
@@ -41,8 +42,10 @@ a {
   justify-content: center;
   height: 50vh;
   /*responsive*/
-  background-color: black;
+  background-color: #9C95DC;
+  color: white;
 }
+
 
 
 
