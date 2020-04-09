@@ -6,7 +6,7 @@ body {
 
 /*NAV*/
 .main-nav {
-  background-color: #C19AB7;
+  background-color: rgba(250, 250, 250, 0.8);
   font-size: 16px;
   display: flex; /*to place menu items side by side*/
   padding: 0 10px;
@@ -26,7 +26,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #3B3D47;
 }
 
 .push {
@@ -44,12 +44,18 @@ a {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 50vh; /*responsive*/
-  background-color: #9C95DC;
-  color: white;
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
   font-size: 30px;
-  text-transform: uppercase;
+  padding-right: 80px;
+  color: #3B3D47;
+
 }
 
 /*GRID*/
@@ -57,7 +63,8 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 10px;
-  background-color: #CDCDCD;
+  background-color: rgb(250, 250, 250);
+  padding: 20px 0;
 }
 
 .box > img {
