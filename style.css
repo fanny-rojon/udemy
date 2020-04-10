@@ -57,16 +57,21 @@ h1 {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .container {
     height: 30vh;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(img/header.jpg);
   }
   li {
-    /*font-size: 14px;*/
-    padding: 10px 10px;
+    font-size: 30px;
+    padding: 15px 15px;
   }
   .push {
     margin-left: 0;
   }
   h1 {
-    font-size: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 }
 
