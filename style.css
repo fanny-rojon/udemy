@@ -122,7 +122,9 @@ footer > h2 {
   opacity: 0.8;
 }
 
-
+.done {
+  text-decoration: line-through;
+}
 
 
 
