@@ -8,10 +8,38 @@ const ul = document.querySelector("ul");
 //   ul.appendChild(li);
 // })
 // equivalent to
-button.addEventListener("click", function() {
+function insertListElement() {
   ul.insertAdjacentHTML("beforeend", `<li>${input.value}</li>`);
   input.value = "";
-})
+}
+
+function inputLength() {
+  return input.value.length;
+}
+
+function addAfterClick() {
+  if (inputLength() > 0) {
+    insertListElement();
+  }
+}
+
+function addAfterKeypress(event) {
+  if (inputLength() > 0 && event.keyCode === 13) {
+    insertListElement();
+  }
+}
+
+button.addEventListener("click", addAfterClick);
+input.addEventListener("keypress", addAfterKeypress);
+
+
+
+
+
+
+
+
+
 
 
 
